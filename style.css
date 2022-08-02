@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #312E2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    height: 640px;
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.square{
+    width: 80px;
+    height: 80px;
+}
+.piece{
+    width: 80px;
+    height: 80px;
+}
+.black{
+    background: rgb(119,149,86)
+}
+.white{
+    background: rgb(235,236,208);
+}
+.possibleMoves{
+    background: lightskyblue;
+}
+.possibleCaptures{
+    background: red;
+}
